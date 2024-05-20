@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SUT University</title>
+</head>
+
+<body>
+    <header style="display: flex; justify-content: space-between; box-shadow: 2px 1px 2px #eee; margin-bottom: 15px;">
+        <div style="padding-left: 30px;">
+            <img src="../assetes/logo.jpg" alt="" style="height: 90px; width: 90px;">
+        </div>
+        <div
+            style="display: flex; padding: 25px; font-size: 20px; color: #666; font-family: Arial, Helvetica, sans-serif;">
+            <div>
+                <a href="../index.html"
+                    style="padding: 20px; cursor: pointer; text-decoration: none; color: #666;">Home</a>
+                <a href="../pages/about.html"
+                    style="padding: 20px; cursor: pointer; text-decoration: none; color: #666;">About</a>
+                <a href="../pages/contact.html"
+                    style="padding: 20px; cursor: pointer; text-decoration: none; color: #666;">Contact</a>
+            </div>
+            <div>
+                <a href="pages/logIn_page.html"
+                    style="display: inline-block; color: #fff; background-color: #2092fd; border-color: #fd2f20; border-radius: 15px; padding: 8px; cursor: pointer; text-decoration: none; font-family: Arial, Helvetica, sans-serif;">Sign
+                    Up</a>
+            </div>
+        </div>
+    </header>
+    <div style="text-align: left; margin: 50px auto; max-width: 800px;">
+        <h2 style="color: #2092fd; font-size: 2em; margin-bottom: 20px;">College Addmission Form</h2>
+        <div style="display: flex; align-items: flex-start;">
+
+            <div>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <p style="display: block; margin-bottom: 5px; color: #333; padding-right: 20px;">Name: </p>
+                    <input type="text" placeholder="Ex: Sutapa Biswas" name="userName"
+                        style="width: 500px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                </div>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <p style="display: block; margin-bottom: 5px; color: #333; padding-right: 20px;">Father's Name: </p>
+                    <input type="text" placeholder="Ex: Goutam Biswas" name="FatherName"
+                        style="width: 500px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span style="padding-right: 20px;">
+                        <p style="display: flex; margin-bottom: 5px; color: #333; padding-right: 20px;">DOB: </p>
+                        <input type="date" name="date"
+                            style="width: 200px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                    </span>
+                    <span>
+                        <p style="display: flex; margin-bottom: 5px; color: #333; padding-right: 20px;">Gender: </p>
+                        <input type="radio" name="gender" value="male">
+                        <label for="Male" style="padding-right: 30px;">Male</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="Female">Female</label>
+                    </span>
+
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span style="margin-top: 30px;">
+                        <label for="passing_year" style="margin-bottom: 5px; color: #333; padding-right: 20px;">12th
+                            Passing
+                            Year:</label>
+                        <select name="passing_year"
+                            style="width: 100px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                            <option value="2021">2017</option>
+                            <option value="2021">2018</option>
+                            <option value="2021">2019</option>
+                            <option value="2021">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2021">2022</option>
+                        </select>
+                    </span>
+                    <span>
+                        <p>12th percentage(%)</p>
+                        <input type="number" name="percentage"
+                            style="width: 200px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                    </span>
+                </div>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <p style="display: block; margin-bottom: 5px; color: #333; padding-right: 20px;">Phone: </p>
+                    <input type="number" placeholder="Ex: 8374873874" name="phone"
+                        style="width: 500px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                </div>
+                <div style="display: flex; justify-content: space-evenly;">
+                    <p style="display: block; margin-bottom: 5px; color: #333; padding-right: 20px;">Email: </p>
+                    <input type="text" placeholder="Ex: sutapa@gmail.com" name="email"
+                        style="width: 500px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-top: 30px;">
+                    <label for="12th_stream" style="margin-bottom: 5px; color: #333; padding-right: 20px;">12th Stream</label>
+                    <select name="12th_stream"
+                        style="width: 150px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+                        <option value="SCI">Science</option>
+                        <option value="ARTS">Arts</option>
+                        <option value="COM">Commerce</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <h4 style="color: #2092fdce; font-size: 20px; margin-bottom: 20px;">----Course Choice----</h4>
+<div>
+    <div style="margin-top: 30px;">
+        <label for="major_sub" style="margin-bottom: 5px; color: #333; padding-right: 20px;">Major Subject</label>
+        <select name="major_sub"
+            style="width: 250px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+            <option value="BEG">Bengali</option>
+            <option value="ENG">English</option>
+            <option value="GEO">Geography</option>
+            <option value="HIS">History</option>
+            <option value="PHY">Physics</option>
+            <option value="MATH">Chemistry</option>
+            <option value="PHYSIOLOGY">Physiology</option>
+            <option value="BOT">Botany</option>
+            <option value="ZOO">Zoology</option>
+            <option value="CS">Computer Science</option>
+            <option value="COMMERCE">Commerce</option>
+            <option value="PYCHO">Pychology</option>
+            <option value="MICRO">Micro Biology</option>
+            <option value="LIB">Libery Science</option>
+        </select>
+    </div>
+    <div>
+    <span style="margin-top: 30px;">
+        <label for="major_sub" style="margin-bottom: 5px; color: #333; padding-right: 20px;">Minor Subject 1</label>
+        <select name="major_sub"
+            style="width: 220px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+            <option value="BEG">Bengali</option>
+            <option value="ENG">English</option>
+            <option value="GEO">Geography</option>
+            <option value="HIS">History</option>
+            <option value="PHY">Physics</option>
+            <option value="MATH">Chemistry</option>
+            <option value="PHYSIOLOGY">Physiology</option>
+            <option value="BOT">Botany</option>
+            <option value="ZOO">Zoology</option>
+            <option value="CS">Computer Science</option>
+            <option value="COMMERCE">Commerce</option>
+            <option value="PYCHO">Pychology</option>
+            <option value="MICRO">Micro Biology</option>
+            <option value="LIB">Libery Science</option>
+        </select>
+    </span>
+    <span style="margin-top: 30px;">
+        <label for="major_sub" style="margin-bottom: 5px; color: #333; padding-right: 20px;">Minor Subject 2</label>
+        <select name="major_sub"
+            style="width: 220px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 20px;">
+            <option value="BEG">Bengali</option>
+            <option value="ENG">English</option>
+            <option value="GEO">Geography</option>
+            <option value="HIS">History</option>
+            <option value="PHY">Physics</option>
+            <option value="MATH">Chemistry</option>
+            <option value="PHYSIOLOGY">Physiology</option>
+            <option value="BOT">Botany</option>
+            <option value="ZOO">Zoology</option>
+            <option value="CS">Computer Science</option>
+            <option value="COMMERCE">Commerce</option>
+            <option value="PYCHO">Pychology</option>
+            <option value="MICRO">Micro Biology</option>
+            <option value="LIB">Libery Science</option>
+        </select>
+    </span>
+    <p style="font-style: italic;">Please enter the minor subjects according to the college guideance</marqu>
+</div>
+</div>
+<div>
+    <button"
+        style="display: inline-block; color: #fff; background-color: #2092fd; border-color: #fd2f20; border-radius: 15px; padding-left: 100px; padding-right: 100px; padding-top: 10px; padding-bottom: 10px; cursor: pointer; text-decoration: none; font-family: Arial, Helvetica, sans-serif;">Submit</button>
+</div>
+    </div>
+</body>
+
+</html>
